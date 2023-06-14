@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: black;
+}
+html{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+img{
+  width: 160px; 
+  height: 160px; 
+  border-radius: 50%; 
+}
+a{
+  justify-items: center;
+  color:white;
+  position: relative;
+  width: auto;
+  font: 16px inter, sans-serif;
+  font-weight: bolder;
+}
+h1{
+  color:white;
+  font-size: 20px;
+}
+div{
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+.profile{
+  align-items: flex-end;
+  
+}
+.btn{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.links{
+  display: block;
+  position: relative;
+  padding-top: 15px;
+}
+ .soc-md{
+  width: 500px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3%;
+  color:black;
+  background-color: rgb(32, 31, 31);
+ }
+.twtr{
+  text-decoration: none;
+}
+a:hover{
+  transform: scale(1.02);
+}
+.parent{
+  position: relative;
+  padding-bottom: 5%;
+
+}
+.share{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: end;
+  float: right;
+}
